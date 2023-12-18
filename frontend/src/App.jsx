@@ -100,7 +100,7 @@ function App() {
                 </div>
             </div>
             <div className='bg-transparent fixed bottom-0 w-full flex flex-row justify-center'>
-                    <div className='flex flex-row items-center gap-3 py-2'>
+                    <div className='flex flex-row items-center gap-3 pb-4'>
                         <button
                             className='text-black flex items-center justify-center rounded-full w-12 h-12 bg-red-200'
                             onClick={()=> setView("list")}
