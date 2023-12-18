@@ -16,10 +16,10 @@ const Grid2View = ({data}) => {
         <div className='grid grid-cols-2 gap-4'>
             {data.map((item, index) => (
                 <div key={index} className='w-full h-auto bg-white shadow-xl border-2 border-slate-100 rounded-md flex flex-col lg:flex-row gap-2 items-center justify-between p-2'>
-                    <div className='w-full flex flex-col items-end justify-center'>
+                    <div className='w-full flex flex-col items-end justify-center border-2 border-slate-200'>
                         {img
                             ?
-                                <img src={img} className='mx-auto border-2 border-slate-200'/>
+                                <img src={img} className='mx-auto '/>
                             :
                                 <div className='w-full h-28 rounded-md bg-gray-300'>
                                 </div>
