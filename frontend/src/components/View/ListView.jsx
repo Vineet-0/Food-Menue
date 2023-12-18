@@ -4,8 +4,8 @@ const ListView = ({data}) => {
     return (
         <div className='flex flex-col gap-4'>
             {data.map((item, index) => (
-                <div key={index} className='w-full h-auto bg-white flex flex-row gap-2 items-center justify-between p-2'>
-                    <div className='w-fit min-w-[150px] border-2 border-gray-300'>
+                <div key={index} className='w-full h-auto bg-white rounded-xl border-2 border-slate-200 flex flex-row gap-2 items-center justify-between p-2'>
+                    <div className='w-fit min-w-[150px]'>
                         {item.img
                             ?
                                 <img src={item.img} className=''/>
@@ -14,7 +14,7 @@ const ListView = ({data}) => {
                                 </div>
                         }   
                     </div>
-                    <div className='bg-purple-300 w-full h-strech flex flex-col items-between justify-start'>
+                    <div className=' w-full h-full flex flex-col items-between justify-start'>
                         <div>
                             {item.catalogue_name}
                         </div>
