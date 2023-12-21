@@ -15,65 +15,6 @@ import Grid2View from './components/View/Grid2View';
 import Grid3View from './components/View/Grid3View';
 
 function App() {
-    const [view,setView]=useState("grid2");
-
-    // const data=[
-    //     {
-    //         id:1,
-    //         img:img,
-    //         name:"Name",
-    //         rating:4.5,
-    //         price:"₹320",
-    //         time:"33 min",
-    //         veg:true,            
-    //     },
-    //     {
-    //         id:2,
-    //         img:img,
-    //         name:"Name",
-    //         rating:4.5,
-    //         price:"₹320",
-    //         time:"33 min",
-    //         veg:true,            
-    //     },
-    //     {
-    //         id:3,
-    //         img:img,
-    //         name:"Name",
-    //         rating:4.5,
-    //         price:"₹320",
-    //         time:"33 min",
-    //         veg:true,            
-    //     },
-    //     {
-    //         id:4,
-    //         img:img,
-    //         name:"Name",
-    //         rating:4.5,
-    //         price:"₹320",
-    //         time:"33 min",
-    //         veg:true,            
-    //     },
-    //     {
-    //         id:5,
-    //         img:img,
-    //         name:"Name",
-    //         rating:4.5,
-    //         price:"₹320",
-    //         time:"33 min",
-    //         veg:true,            
-    //     },
-    //     {
-    //         id:6,
-    //         img:img,
-    //         name:"Name",
-    //         rating:4.5,
-    //         price:"₹320",
-    //         time:"33 min",
-    //         veg:true,            
-    //     },
-    // ]
-
 
     return (
         <div className="w-full h-auto  no-scrollbar">
@@ -84,7 +25,7 @@ function App() {
                         <MdRestaurantMenu />
                     </div>
                     <div className='text-2xl font-bold'>
-                        Food-Menu
+                        Heaven Meal
                     </div>
                     <div className='text-2xl font-bold'>
                         <FaUserCircle />
@@ -99,31 +40,31 @@ function App() {
                     </div>
                 </div>
             </div>
-            <div className='bg-transparent fixed bottom-0 w-full flex flex-row justify-center'>
+            {/* <div className='bg-transparent fixed bottom-0 w-full flex flex-row justify-center'>
                     <div className='flex flex-row items-center gap-3 pb-8'>
-                        <button
-                            className='text-black flex items-center justify-center rounded-full w-12 h-12 bg-red-200'
-                            onClick={()=> setView("list")}
-                        >
-                            <FaList/>
-                        </button>
-                        <button
-                            className='text-black flex items-center justify-center rounded-full w-12 h-12 bg-red-200'
-                            onClick={()=> setView("grid2")}
-                        >
-                            <TfiLayoutGrid2Alt/>
-                        </button>
-                        {/* <button className='text-black flex items-center justify-center rounded-full w-12 h-12 bg-red-200'>
-                            <TfiLayoutGrid3Alt onClick={()=> setView("grid3")}/>
-                        </button> */}
-                    </div>
+                    <button
+                        className='text-black flex items-center justify-center rounded-full w-12 h-12 bg-red-200'
+                        onClick={()=> setView("list")}
+                    >
+                        <FaList/>
+                    </button>
+                    <button
+                        className='text-black flex items-center justify-center rounded-full w-12 h-12 bg-red-200'
+                        onClick={()=> setView("grid2")}
+                    >
+                        <TfiLayoutGrid2Alt/>
+                    </button>
+                    <button className='text-black flex items-center justify-center rounded-full w-12 h-12 bg-red-200'>
+                        <TfiLayoutGrid3Alt onClick={()=> setView("grid3")}/>
+                    </button>
                 </div>
+            </div> */}
             <div className='z-1 w-full px-4 sm:px-16 pt-36 pb-8'>
-                
-                {view=="list" && <ListView data={data}/>}
-                {view=="grid2" && <Grid2View data={data}/>}
-                {view=="grid3" && <Grid3View data={data}/>}
-                
+                <div className='flex flex-col gap-4'>
+                {data.map((item, index) => (
+                    <ListView item={item} index={index}/>
+                ))}
+                </div>
             </div>
         </div>
     )
