@@ -30,12 +30,12 @@ function App() {
                 {/* Navbar */}
                 <div className="flex flex-col w-full ">
                 {/* <div className="z-1 fixed flex flex-col w-full"> */}
-                    <div className="w-full px-8 sm:px-16 pt-1 flex flex-row items-center justify-between bg-[#f1f1f1] shadow">
+                    <div className="w-full px-8 sm:px-16 py-2 flex flex-row items-center justify-between bg-[#f1f1f1] shadow">
                         <div className="text-2xl font-bold">
                             <MdOutlineMenu />
                         </div>
                         <div>
-                            <img className="w-[190px]" src={HeavenMealLogo} alt="Heaven Meal Logo" />
+                            <img className="w-[170px]" src={HeavenMealLogo} alt="Heaven Meal Logo" />
                         </div>
                         <div className="text-xl font-bold"
                             onClick = {() => setSearchBar(!searchBar)}>
