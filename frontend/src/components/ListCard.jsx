@@ -73,7 +73,7 @@ const ListCard = ({ item, index }) => {
                         {item.half_price ? <div className='mr-[5px]'>₹{item.half_price} /</div> : "" } ₹{item.full_price}
                     </div>
                     {item.half_qty && 
-                        <div className='flex flex-row'>
+                        <div className='flex flex-row justify-end text-[#3559E0]'>
                             {item.half_qty} / {item.full_qty}
                         </div>
                     }
