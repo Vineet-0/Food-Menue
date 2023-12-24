@@ -74,6 +74,7 @@ const data = [
     catalogue_name: "Veg Noodles",
     full_price: 199.0,
     veg: "true",
+    description: "hello",
     img: "https://b.zmtcdn.com/data/dish_photos/e55/5fa13adc2d1b4df220797e7e2719de55.jpg?fit=around|130:130&crop=130:130;*,*"
   },
   {
@@ -83,6 +84,7 @@ const data = [
     catalogue_name: "Veg Schezwan Noodles",
     full_price: 199.0,
     veg: "true",
+    description: "hello",
     img: "https://b.zmtcdn.com/data/dish_photos/06d/8c7b7e78712766f1ebf358465451206d.jpg?fit=around|130:130&crop=130:130;*,*"
   },
   {
@@ -92,6 +94,7 @@ const data = [
     catalogue_name: "Butter Garlic Noodles",
     full_price: 219.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Noodles",
@@ -100,6 +103,7 @@ const data = [
     catalogue_name: "Paneer Garlic Noodles",
     full_price: 229.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Noodles",
@@ -108,6 +112,7 @@ const data = [
     catalogue_name: "Veg Hakka Noodles",
     full_price: 199.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Noodles",
@@ -116,6 +121,7 @@ const data = [
     catalogue_name: "Veg Singapuri Noodles",
     full_price: 199.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Noodles",
@@ -124,6 +130,7 @@ const data = [
     catalogue_name: "Egg Noodles",
     full_price: 219.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Noodles",
@@ -132,6 +139,7 @@ const data = [
     catalogue_name: "Chicken Noodles",
     full_price: 229.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Noodles",
@@ -140,6 +148,7 @@ const data = [
     catalogue_name: "Chicken Garlic Noodles",
     full_price: 229.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Noodles",
@@ -148,6 +157,7 @@ const data = [
     catalogue_name: "Chicken Hakka Noodles",
     full_price: 229.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Noodles",
@@ -156,6 +166,7 @@ const data = [
     catalogue_name: "Chicken Singapuri Noodles",
     full_price: 229.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Noodles",
@@ -164,6 +175,7 @@ const data = [
     catalogue_name: "Chicken Chilli Noodles",
     full_price: 249.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Indian Thalis",
@@ -172,6 +184,7 @@ const data = [
     catalogue_name: "Veg Basic wali Thali",
     full_price: 199.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Indian Thalis",
@@ -180,6 +193,7 @@ const data = [
     catalogue_name: "Veg Special wali Thali",
     full_price: 269.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Indian Thalis",
@@ -188,6 +202,7 @@ const data = [
     catalogue_name: "Mushroom wali Veg Special Thali",
     full_price: 269.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Indian Thalis",
@@ -196,6 +211,7 @@ const data = [
     catalogue_name: "Veg Badshaho wali Thali",
     full_price: 329.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Indian Thali",
@@ -204,6 +220,7 @@ const data = [
     catalogue_name: "Thali Basic Wali [Serves 1]",
     full_price: 229.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Indian Thalis",
@@ -212,6 +229,7 @@ const data = [
     catalogue_name: "Thali Special Wali",
     full_price: 329.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Indian Thalis",
@@ -220,6 +238,7 @@ const data = [
     catalogue_name: "Deluxe Thali",
     full_price: 379.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Chinese Thalis",
@@ -228,6 +247,7 @@ const data = [
     catalogue_name: "Chinese Basic Thali",
     full_price: 199.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Chinese Thalis",
@@ -236,6 +256,7 @@ const data = [
     catalogue_name: "Chinese Special Thali",
     full_price: 269.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Chinese Thalis",
@@ -244,6 +265,7 @@ const data = [
     catalogue_name: "Chinese Deluxe Thali",
     full_price: 329.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Chinese Thalis",
@@ -252,6 +274,7 @@ const data = [
     catalogue_name: "Basic Chinese Thali",
     full_price: 229.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Chinese Thalis",
@@ -260,6 +283,7 @@ const data = [
     catalogue_name: "Special Chinese Thali",
     full_price: 299.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Chinese Thalis",
@@ -268,6 +292,7 @@ const data = [
     catalogue_name: "Deluxe Chinese Thali",
     full_price: 349.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Maggi",
@@ -276,6 +301,7 @@ const data = [
     catalogue_name: "Vegetable Maggi",
     full_price: 199.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Maggi",
@@ -284,6 +310,7 @@ const data = [
     catalogue_name: "Veg Cheese Maggi",
     full_price: 219.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Maggi",
@@ -292,6 +319,7 @@ const data = [
     catalogue_name: "Egg Maggi",
     full_price: 219.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Maggi",
@@ -300,6 +328,7 @@ const data = [
     catalogue_name: "Chicken Maggi",
     full_price: 249.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Chinese Main Course",
@@ -308,6 +337,7 @@ const data = [
     catalogue_name: "Paneer Chilli Gravy",
     full_price: 249.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Chinese Main Course",
@@ -316,6 +346,7 @@ const data = [
     catalogue_name: "Mushroom Chilli Gravy",
     full_price: 269.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Chinese Main Course",
@@ -324,6 +355,7 @@ const data = [
     catalogue_name: "Veg Manchurian Gravy",
     full_price: 249.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Chinese Main Course",
@@ -332,6 +364,7 @@ const data = [
     catalogue_name: "Chicken Chilli Gravy",
     full_price: 269.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Chinese Main Course",
@@ -340,6 +373,7 @@ const data = [
     catalogue_name: "Chicken 65 Gravy",
     full_price: 289.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Chinese Main Course",
@@ -348,6 +382,7 @@ const data = [
     catalogue_name: "Chicken Manchurian Gravy",
     full_price: 289.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Indian Main Course",
@@ -356,6 +391,7 @@ const data = [
     catalogue_name: "Aloo Matar",
     full_price: 199.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Indian Main Course",
@@ -364,6 +400,7 @@ const data = [
     catalogue_name: "Aloo Gobhi",
     full_price: 199.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Indian Main Course",
@@ -372,6 +409,7 @@ const data = [
     catalogue_name: "Mix Veg",
     full_price: 249.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Indian Main Course",
@@ -380,6 +418,7 @@ const data = [
     catalogue_name: "Matar Mushroom",
     full_price: 269.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Indian Main Course",
@@ -388,6 +427,7 @@ const data = [
     catalogue_name: "Paneer Kadhai Gravy",
     full_price: 269.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Indian Main Course",
@@ -396,6 +436,7 @@ const data = [
     catalogue_name: "Paneer Butter Masala",
     full_price: 269.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Indian Main Course",
@@ -404,6 +445,7 @@ const data = [
     catalogue_name: "Matar Paneer",
     full_price: 269.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Indian Main Course",
@@ -412,6 +454,7 @@ const data = [
     catalogue_name: "Shahi Paneer",
     full_price: 299.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Indian Main Course",
@@ -420,6 +463,7 @@ const data = [
     catalogue_name: "Paneer Do Pyaza",
     full_price: 299.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Indian Main Course",
@@ -428,6 +472,7 @@ const data = [
     catalogue_name: "Mushroom Butter Masala",
     full_price: 299.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Indian Main Course",
@@ -436,6 +481,7 @@ const data = [
     catalogue_name: "Mushroom Masala Gravy",
     full_price: 299.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Indian Main Course",
@@ -444,6 +490,7 @@ const data = [
     catalogue_name: "Kadhai Chicken",
     full_price: 299.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Indian Main Course",
@@ -452,6 +499,7 @@ const data = [
     catalogue_name: "Chicken Dehati",
     full_price: 299.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Indian Main Course",
@@ -460,6 +508,7 @@ const data = [
     catalogue_name: "Chicken Handi",
     full_price: 299.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Indian Main Course",
@@ -468,6 +517,7 @@ const data = [
     catalogue_name: "Chicken Do Pyaza",
     full_price: 349.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Indian Main Course",
@@ -476,6 +526,7 @@ const data = [
     catalogue_name: "Butter Chicken",
     full_price: 349.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Rolls",
@@ -484,6 +535,7 @@ const data = [
     catalogue_name: "Veg Roll",
     full_price: 199.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Rolls",
@@ -492,6 +544,7 @@ const data = [
     catalogue_name: "Paneer 65 Roll",
     full_price: 229.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Rolls",
@@ -500,6 +553,7 @@ const data = [
     catalogue_name: "Veg Manchurian Roll",
     full_price: 229.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Rolls",
@@ -508,6 +562,7 @@ const data = [
     catalogue_name: "Egg Roll",
     full_price: 199.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Rolls",
@@ -516,6 +571,7 @@ const data = [
     catalogue_name: "Chicken Roll",
     full_price: 229.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Rolls",
@@ -524,6 +580,7 @@ const data = [
     catalogue_name: "Chicken Egg Roll",
     full_price: 249.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Rolls",
@@ -532,6 +589,7 @@ const data = [
     catalogue_name: "Chicken 65 Roll",
     full_price: 249.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Rolls",
@@ -540,6 +598,7 @@ const data = [
     catalogue_name: "Chicken Manchurian Roll",
     full_price: 259.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Starters",
@@ -548,6 +607,7 @@ const data = [
     catalogue_name: "Paneer Chilli Dry",
     full_price: 259.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Starters",
@@ -556,6 +616,7 @@ const data = [
     catalogue_name: "Paneer 65 Dry",
     full_price: 259.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Starters",
@@ -564,6 +625,7 @@ const data = [
     catalogue_name: "Manchurian Dry",
     full_price: 259.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Starters",
@@ -572,6 +634,7 @@ const data = [
     catalogue_name: "Mushroom Chilli Dry",
     full_price: 269.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Starters",
@@ -580,6 +643,7 @@ const data = [
     catalogue_name: "Chicken 65 Dry",
     full_price: 269.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Starters",
@@ -588,6 +652,7 @@ const data = [
     catalogue_name: "Chicken Chilli Dry",
     full_price: 269.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Starters",
@@ -596,6 +661,7 @@ const data = [
     catalogue_name: "Chicken Manchurian Dry",
     full_price: 279.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Starters",
@@ -604,6 +670,7 @@ const data = [
     catalogue_name: "Chicken Lollipop",
     full_price: 349.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Biryani",
@@ -612,6 +679,7 @@ const data = [
     catalogue_name: "Paneer Tikka Biryani",
     full_price: 249.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Biryani",
@@ -620,6 +688,7 @@ const data = [
     catalogue_name: "Veg Dum Biryani",
     full_price: 229.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Biryani",
@@ -628,6 +697,7 @@ const data = [
     catalogue_name: "Veg Hyderabadi Biryani",
     full_price: 249.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Biryani",
@@ -636,6 +706,7 @@ const data = [
     catalogue_name: "Veg Lucknowi Biryani",
     full_price: 249.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Biryani",
@@ -644,6 +715,7 @@ const data = [
     catalogue_name: "Egg Biryani",
     full_price: 229.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Biryani",
@@ -652,6 +724,7 @@ const data = [
     catalogue_name: "Chicken Biryani",
     full_price: 299.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Biryani",
@@ -660,6 +733,7 @@ const data = [
     catalogue_name: "Chicken Tikka Dum Biryani",
     full_price: 329.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Biryani",
@@ -668,6 +742,7 @@ const data = [
     catalogue_name: "Chicken Hyderabadi Biryani",
     full_price: 329.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Biryani",
@@ -676,6 +751,7 @@ const data = [
     catalogue_name: "Chicken Lucknowi Biryani",
     full_price: 329.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Biryani",
@@ -684,6 +760,7 @@ const data = [
     catalogue_name: "Chicken Leg Biryani [2 Leg Pieces]",
     full_price: 449.0,
     veg: "false",
+    description: "hello",
   },
   
 
@@ -694,6 +771,7 @@ const data = [
     catalogue_name: "Veg Steamed Momos [4 Pieces]",
     full_price: 99.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Momos",
@@ -702,6 +780,7 @@ const data = [
     catalogue_name: "Veg Steamed Momos [8 Pieces]",
     full_price: 149.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Momos",
@@ -710,6 +789,7 @@ const data = [
     catalogue_name: "Paneer Steamed Momos [4 Pieces]",
     full_price: 129.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Momos",
@@ -718,6 +798,7 @@ const data = [
     catalogue_name: "Paneer Steamed Momos [8 Pieces]",
     full_price: 149.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Momos",
@@ -726,6 +807,7 @@ const data = [
     catalogue_name: "Chicken Steamed Momos [4 Pieces]",
     full_price: 129.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Momos",
@@ -734,6 +816,7 @@ const data = [
     catalogue_name: "Chicken Steamed Momos [8 Pieces]",
     full_price: 149.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Momos",
@@ -742,6 +825,7 @@ const data = [
     catalogue_name: "Veg Fried Momos [4 Pieces]",
     full_price: 199.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Momos",
@@ -750,6 +834,7 @@ const data = [
     catalogue_name: "Veg Fried Momos [8 Pieces]",
     full_price: 249.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Momos",
@@ -761,6 +846,7 @@ const data = [
     full_pieces: "8 Pieces",
     full_price: 249.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Momos",
@@ -772,6 +858,7 @@ const data = [
     full_pieces: "8 Pieces",
     full_price: 259.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Momos",
@@ -783,6 +870,7 @@ const data = [
     full_pieces: "8 Pieces",
     full_price: 299.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Momos",
@@ -794,6 +882,7 @@ const data = [
     full_pieces: "8 Pieces",
     full_price: 299.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Momos",
@@ -805,6 +894,7 @@ const data = [
     full_pieces: "10 Pieces",
     full_price: 349.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Combos",
@@ -813,6 +903,7 @@ const data = [
     catalogue_name: "Veg Noodles + Veg Manchurian",
     full_price: 249.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Combos",
@@ -821,6 +912,7 @@ const data = [
     catalogue_name: "Chicken Noodles + Veg Manchurian",
     full_price: 279.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Combos",
@@ -829,6 +921,7 @@ const data = [
     catalogue_name: "Chicken Noodles + Chicken Manchurian",
     full_price: 329.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Combos",
@@ -837,6 +930,7 @@ const data = [
     catalogue_name: "Veg Fried Rice + Veg Manchurian",
     full_price: 249.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Combos",
@@ -845,6 +939,7 @@ const data = [
     catalogue_name: "Chicken Fried Rice + Veg Manchurian",
     full_price: 279.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Combos",
@@ -853,6 +948,7 @@ const data = [
     catalogue_name: "Chicken Fried Rice + Chicken Manchurian",
     full_price: 329.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Combos",
@@ -861,6 +957,7 @@ const data = [
     catalogue_name: "Biryani Combo",
     full_price: 249.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Combos",
@@ -869,6 +966,7 @@ const data = [
     catalogue_name: "Momos Combo",
     full_price: 249.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Combos",
@@ -877,6 +975,7 @@ const data = [
     catalogue_name: "Paneer Chilli",
     full_price: 249.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Combos",
@@ -885,6 +984,7 @@ const data = [
     catalogue_name: "Chicken Chilli",
     full_price: 269.0,
     veg: "false",
+    description: "hello",
   },
   {
     category_name: "Breads",
@@ -893,6 +993,7 @@ const data = [
     catalogue_name: "5 Tawa Roti",
     full_price: 85.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Breads",
@@ -901,6 +1002,7 @@ const data = [
     catalogue_name: "2 Lachha Paratha",
     full_price: 80.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Breads",
@@ -909,6 +1011,7 @@ const data = [
     catalogue_name: "5 Tawa Roti with Butter",
     full_price: 110.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Rice",
@@ -917,6 +1020,7 @@ const data = [
     catalogue_name: "Plain Rice",
     full_price: 79.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Rice",
@@ -925,6 +1029,7 @@ const data = [
     catalogue_name: "Jeera Rice",
     full_price: 99.0,
     veg: "true",
+    description: "hello",
   },
   {
     category_name: "Desserts",
@@ -933,6 +1038,7 @@ const data = [
     catalogue_name: "Gulab Jamun (2 Pcs)",
     full_price: 100.0,
     veg: "true",
+    description: "hello",
   },
 ];
 
