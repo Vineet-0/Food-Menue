@@ -57,10 +57,19 @@ const ListCard = ({ item, index }) => {
                 }
             </div> */}
             <div className='w-full flex flex-row items-start justify-between mt-1 mb-auto'>
-                <div className='font-medium'>{item.name}</div>
+                
+                <div className='font-medium flex flex-row items-center justify-start gap-2'>
+                    <div className=''>
+                        {item.veg === 'true' ? <VegetableIcon /> : <NonVegetableIcon />}
+                    </div>
+                    <div>
+                        {item.name}
+                    </div>
+                    
+                </div>
 
                 <div className='flex flex-col'>
-                    <div className='flex flex-row justify-end font-semibold'>
+                    <div className='flex flex-row justify-end font-semibold text-[#3559E0]'>
                         {item.half_price ? <div className='mr-[5px]'>₹{item.half_price} /</div> : "" } ₹{item.full_price}
                     </div>
                     {item.half_qty && 
