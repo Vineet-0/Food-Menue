@@ -6,8 +6,8 @@ const data = [
     catalogue_name: "Veg Fried Rice",
     full_price: 199.0,
     veg: "true",
+    description: "Stir fried rice with mixed vegetable and seasoning, a popular Indo Chinese dish.",
     img: "https://b.zmtcdn.com/data/dish_photos/75a/2e574d8c53efd371b5d4dbc8279a175a.jpg?fit=around|130:130&crop=130:130;*,*",
-    description: "Stir fried rice with mixed vegetable and seasoning, a popular Indo Chinese dish."
   },
   {
     category_name: "Fried Rice",
@@ -16,6 +16,7 @@ const data = [
     catalogue_name: "Veg Schezwan Fried Rice",
     full_price: 199.0,
     veg: "true",
+    description: "A spicy and tangy veg rice dish, loaded with veggies and tossed in fiery schezwan sauce. A popular Indo Chinese favorite.",
     img: "https://b.zmtcdn.com/data/dish_photos/20c/a744f47dbb7fa1f043074a2f7a9ef20c.jpg?fit=around|130:130&crop=130:130;*,*"
   },
   {
@@ -25,6 +26,7 @@ const data = [
     catalogue_name: "Butter Garlic Fried Rice",
     full_price: 219.0,
     veg: "true",
+    description: "A fragrant and flavorful rice dish, infused with the richness of butter and the sharpness of garlic.",
     img: "https://b.zmtcdn.com/data/dish_photos/826/550ef01c3084544087ee3a137def5826.jpg?fit=around|130:130&crop=130:130;*,*"
   },
   {
@@ -34,6 +36,7 @@ const data = [
     catalogue_name: "Paneer Garlic Fried Rice",
     full_price: 229.0,
     veg: "true",
+    description: "A fusion dish of Indian and Chinese cuisines, made with rice, paneer and vegetables stir fried with spices.",
   },
   {
     category_name: "Fried Rice",
@@ -42,6 +45,7 @@ const data = [
     catalogue_name: "Egg Fried Rice",
     full_price: 219.0,
     veg: "false",
+    description: "Stir fried rice cooked with scrambled eggs and veggies, a classic and simple Chinese dish.",
   },
   {
     category_name: "Fried Rice",
@@ -50,6 +54,7 @@ const data = [
     catalogue_name: "Chicken Egg Fried Rice",
     full_price: 249.0,
     veg: "false",
+    description: "A classic Chinese dish, made with scrambled egg, tender chicken pieces, and stir fried rice. Satisfying and delicious.",
     img: "https://b.zmtcdn.com/data/dish_photos/753/68bcba9cfecd80fa42078a71226ef753.jpg?fit=around|130:130&crop=130:130;*,*"
   },
   {
@@ -59,6 +64,7 @@ const data = [
     catalogue_name: "Chicken Garlic Rice",
     full_price: 249.0,
     veg: "false",
+    description: "Tender chicken pieces and fragrant garlic infused in stir fried rice, a savory meal.",
     img: "https://b.zmtcdn.com/data/dish_photos/40f/751f6c4233290427a4e6107b5061940f.jpg?fit=around|130:130&crop=130:130;*,*"
   },
   {

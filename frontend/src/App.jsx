@@ -59,12 +59,12 @@ function App() {
 
                 {/* Main Menu */}
                 <div className="w-full px-4 sm:px-16 pt-2 pb-8 mt-4">
-                    <div className="flex flex-col items-center">
+                    <div className="flex flex-col items-center bg-white px-4 py-2 shadow rounded-md">
                         {categoryNames.map((name,index) => (
                             <div key={index} className="w-full max-w-[700px]">
                                 <div onClick={() => toggleVisibility(name)} className="bg-white border rounded-md shadow my-2">
                                     <div className="flex flex-row items-center justify-between px-5 py-1.5 text-[#281c1cd0]">
-                                        <div className="text-xl font-medium">{name}</div>
+                                        <div className="text-lg font-medium">{name}</div>
                                         <FaChevronDown />
                                     </div>
                                 </div>
