@@ -12,13 +12,14 @@ import ListCard from "./components/ListCard.jsx";
 import HeavenMealLogo from "./assets/HeavenMealLogo.png"
 
 function App() {
+    const [searchBar, setSearchBar] = useState('false');
+    const [visibleCategory, setVisibleCategory] = useState(null);
+
     const categoryNames = [
         "Fried Rice", "Noodles", "Indian Thalis", "Chinese Thalis", "Maggi",
         "Chinese Main Course", "Indian Main Course", "Rolls", "Starters",
         "Biryani", "Momos", "Combos", "Rice", "Breads", "Desserts",
     ];
-      const [visibleCategory, setVisibleCategory] = useState(null);
-      const [searchBar, setSearchBar] = useState('false');
 
       const toggleVisibility = (category) => {
         setVisibleCategory((prevCategory) => (prevCategory === category ? null : category));
@@ -32,37 +33,38 @@ function App() {
                 {/* <div className="z-1 fixed flex flex-col w-full"> */}
                     <div className="w-full px-8 sm:px-16 py-2 flex flex-row items-center justify-between bg-[#f1f1f1] shadow">
                         <div className="text-2xl font-bold">
-                            <MdOutlineMenu />
+                            <MdOutlineMenu className="text-[#281c1cd0]"/>
                         </div>
                         <div>
                             <img className="w-[170px]" src={HeavenMealLogo} alt="Heaven Meal Logo" />
                         </div>
                         <div className="text-xl font-bold"
                             onClick = {() => setSearchBar(!searchBar)}>
-                            <FaMagnifyingGlass />
+                            <FaMagnifyingGlass className="text-[#f1f1f1]"/>
+                            {/* <FaMagnifyingGlass className="text-[#281c1cd0]"/> */}
                         </div>
                     </div>
-                    {searchBar && 
+                    {/* {searchBar && 
                         <div className="flex flex-row items-center justify-center w-full pt-4">
                             <div className="bg-[#f1f1f1] border-2 border-[#f1f1f1d0] shadow flex flex-row items-center justify-center gap-2 w-full sm:w-3/4 lg:w-1/2 mx-4 lg:mx-0 px-4 py-2 rounded-md">
                                 <input type="text" placeholder="What would you like to eat today?" className="w-full bg-[#f1f1f1] text-black" />
                                     <button className="text-black">
-                                    <FaMagnifyingGlass />
+                                    <FaMagnifyingGlass className="text-[#281c1cd0]"/>
                                 </button>
                             </div>
                         </div>
-                    }
+                    } */}
                     
                 </div>
 
                 {/* Main Menu */}
-                <div className="w-full px-4 sm:px-16 pt-2 pb-8">
+                <div className="w-full px-4 sm:px-16 pt-2 pb-8 mt-4">
                     <div className="flex flex-col items-center">
                         {categoryNames.map((name,index) => (
                             <div key={index} className="w-full max-w-[700px]">
                                 <div onClick={() => toggleVisibility(name)} className="bg-white border rounded-md shadow my-2">
-                                    <div className="flex flex-row items-center justify-between px-5 py-2">
-                                        <div className="text-xl font-gagalin">{name}</div>
+                                    <div className="flex flex-row items-center justify-between px-5 py-1.5 text-[#281c1cd0]">
+                                        <div className="text-xl font-medium">{name}</div>
                                         <FaChevronDown />
                                     </div>
                                 </div>

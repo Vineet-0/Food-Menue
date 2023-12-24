@@ -44,10 +44,10 @@ const ListCard = ({item,index}) => {
                 </div> 
             </div>
             <div className='flex flex-col gap-1 items-start justify-start mt-1 mb-auto'>
-                <div>
+                <div className="font-medium">
                     {item.catalogue_name}
                 </div>
-                <div>
+                <div className='font-semibold'>
                     ₹<span>{item.full_price}</span>
                 </div>
                 <div className='text-xs'>
