@@ -1,6 +1,6 @@
 const data = [
   {
-    category_name: "Fried Rice and Noodles",
+    category_name: "Fried Rice",
     subcategory_name: "Fried Rice",
     catalogue_id: 531448011,
     catalogue_name: "Veg Fried Rice",
@@ -8,7 +8,7 @@ const data = [
     veg: "true",
   },
   {
-    category_name: "Fried Rice and Noodles",
+    category_name: "Fried Rice",
     subcategory_name: "Fried Rice",
     catalogue_id: 531448057,
     catalogue_name: "Veg Schezwan Fried Rice",
@@ -16,7 +16,7 @@ const data = [
     veg: "true",
   },
   {
-    category_name: "Fried Rice and Noodles",
+    category_name: "Fried Rice",
     subcategory_name: "Fried Rice",
     catalogue_id: 531448005,
     catalogue_name: "Butter Garlic Fried Rice",
@@ -24,7 +24,7 @@ const data = [
     veg: "true",
   },
   {
-    category_name: "Fried Rice and Noodles",
+    category_name: "Fried Rice",
     subcategory_name: "Fried Rice",
     catalogue_id: 531448034,
     catalogue_name: "Paneer Garlic Fried Rice",
@@ -32,7 +32,7 @@ const data = [
     veg: "true",
   },
   {
-    category_name: "Fried Rice and Noodles",
+    category_name: "Fried Rice",
     subcategory_name: "Fried Rice",
     catalogue_id: 531448062,
     catalogue_name: "Egg Fried Rice",
@@ -40,7 +40,7 @@ const data = [
     veg: "false",
   },
   {
-    category_name: "Fried Rice and Noodles",
+    category_name: "Fried Rice",
     subcategory_name: "Fried Rice",
     catalogue_id: 531448058,
     catalogue_name: "Chicken Egg Fried Rice",
@@ -48,7 +48,7 @@ const data = [
     veg: "false",
   },
   {
-    category_name: "Fried Rice and Noodles",
+    category_name: "Fried Rice",
     subcategory_name: "Fried Rice",
     catalogue_id: 531448002,
     catalogue_name: "Chicken Garlic Rice",
@@ -56,7 +56,7 @@ const data = [
     veg: "false",
   },
   {
-    category_name: "Fried Rice and Noodles",
+    category_name: "Noodles",
     subcategory_name: "Noodles",
     catalogue_id: 531448035,
     catalogue_name: "Veg Noodles",
@@ -64,7 +64,7 @@ const data = [
     veg: "true",
   },
   {
-    category_name: "Fried Rice and Noodles",
+    category_name: "Noodles",
     subcategory_name: "Noodles",
     catalogue_id: 531448003,
     catalogue_name: "Veg Schezwan Noodles",
@@ -72,7 +72,7 @@ const data = [
     veg: "true",
   },
   {
-    category_name: "Fried Rice and Noodles",
+    category_name: "Noodles",
     subcategory_name: "Noodles",
     catalogue_id: 531448038,
     catalogue_name: "Butter Garlic Noodles",
@@ -80,7 +80,7 @@ const data = [
     veg: "true",
   },
   {
-    category_name: "Fried Rice and Noodles",
+    category_name: "Noodles",
     subcategory_name: "Noodles",
     catalogue_id: 531448050,
     catalogue_name: "Paneer Garlic Noodles",
@@ -88,7 +88,7 @@ const data = [
     veg: "true",
   },
   {
-    category_name: "Fried Rice and Noodles",
+    category_name: "Noodles",
     subcategory_name: "Noodles",
     catalogue_id: 531448051,
     catalogue_name: "Veg Hakka Noodles",
@@ -96,7 +96,7 @@ const data = [
     veg: "true",
   },
   {
-    category_name: "Fried Rice and Noodles",
+    category_name: "Noodles",
     subcategory_name: "Noodles",
     catalogue_id: 531448059,
     catalogue_name: "Veg Singapuri Noodles",
@@ -104,7 +104,7 @@ const data = [
     veg: "true",
   },
   {
-    category_name: "Fried Rice and Noodles",
+    category_name: "Noodles",
     subcategory_name: "Noodles",
     catalogue_id: 531448052,
     catalogue_name: "Egg Noodles",
@@ -112,7 +112,7 @@ const data = [
     veg: "false",
   },
   {
-    category_name: "Fried Rice and Noodles",
+    category_name: "Noodles",
     subcategory_name: "Noodles",
     catalogue_id: 531448039,
     catalogue_name: "Chicken Noodles",
@@ -120,7 +120,7 @@ const data = [
     veg: "false",
   },
   {
-    category_name: "Fried Rice and Noodles",
+    category_name: "Noodles",
     subcategory_name: "Noodles",
     catalogue_id: 531448040,
     catalogue_name: "Chicken Garlic Noodles",
@@ -128,7 +128,7 @@ const data = [
     veg: "false",
   },
   {
-    category_name: "Fried Rice and Noodles",
+    category_name: "Noodles",
     subcategory_name: "Noodles",
     catalogue_id: 531447992,
     catalogue_name: "Chicken Hakka Noodles",
@@ -136,7 +136,7 @@ const data = [
     veg: "false",
   },
   {
-    category_name: "Fried Rice and Noodles",
+    category_name: "Noodles",
     subcategory_name: "Noodles",
     catalogue_id: 531448028,
     catalogue_name: "Chicken Singapuri Noodles",
@@ -144,7 +144,7 @@ const data = [
     veg: "false",
   },
   {
-    category_name: "Fried Rice and Noodles",
+    category_name: "Noodles",
     subcategory_name: "Noodles",
     catalogue_id: 531448053,
     catalogue_name: "Chicken Chilli Noodles",
@@ -152,7 +152,7 @@ const data = [
     veg: "false",
   },
   {
-    category_name: "Veg Indian Thali",
+    category_name: "Indian Thalis",
     subcategory_name: "Veg Indian Thali",
     catalogue_id: 561389947,
     catalogue_name: "Veg Basic wali Thali",
@@ -160,7 +160,7 @@ const data = [
     veg: "true",
   },
   {
-    category_name: "Veg Indian Thali",
+    category_name: "Indian Thalis",
     subcategory_name: "Veg Indian Thali",
     catalogue_id: 561389946,
     catalogue_name: "Veg Special wali Thali",
@@ -168,7 +168,7 @@ const data = [
     veg: "true",
   },
   {
-    category_name: "Veg Indian Thali",
+    category_name: "Indian Thalis",
     subcategory_name: "Veg Indian Thali",
     catalogue_id: 561392624,
     catalogue_name: "Mushroom wali Veg Special Thali",
@@ -176,7 +176,7 @@ const data = [
     veg: "true",
   },
   {
-    category_name: "Veg Indian Thali",
+    category_name: "Indian Thalis",
     subcategory_name: "Veg Indian Thali",
     catalogue_id: 561390680,
     catalogue_name: "Veg Badshaho wali Thali",
@@ -184,7 +184,7 @@ const data = [
     veg: "true",
   },
   {
-    category_name: "Non Veg Indian Thali",
+    category_name: "Indian Thali",
     subcategory_name: "Non Veg Indian Thali",
     catalogue_id: 561394704,
     catalogue_name: "Thali Basic Wali [Serves 1]",
@@ -192,7 +192,7 @@ const data = [
     veg: "false",
   },
   {
-    category_name: "Non Veg Indian Thali",
+    category_name: "Indian Thalis",
     subcategory_name: "Non Veg Indian Thali",
     catalogue_id: 561395025,
     catalogue_name: "Thali Special Wali",
@@ -200,7 +200,7 @@ const data = [
     veg: "false",
   },
   {
-    category_name: "Non Veg Indian Thali",
+    category_name: "Indian Thalis",
     subcategory_name: "Non Veg Indian Thali",
     catalogue_id: 561395400,
     catalogue_name: "Deluxe Thali",
@@ -677,7 +677,7 @@ const data = [
     category_name: "Momos",
     subcategory_name: "Momos",
     catalogue_id: 5314480541,
-    catalogue_name: "Veg Steamed Momos [4/8 Pieces]",
+    catalogue_name: "Veg Steamed Momos [4 Pieces]",
     full_price: 99.0,
     veg: "true",
   },
@@ -873,7 +873,7 @@ const data = [
     veg: "false",
   },
   {
-    category_name: "Rice and Breads",
+    category_name: "Breads",
     subcategory_name: "Breads",
     catalogue_id: 534892085,
     catalogue_name: "5 Tawa Roti",
@@ -881,7 +881,7 @@ const data = [
     veg: "true",
   },
   {
-    category_name: "Rice and Breads",
+    category_name: "Breads",
     subcategory_name: "Breads",
     catalogue_id: 534892086,
     catalogue_name: "2 Lachha Paratha",
@@ -889,7 +889,7 @@ const data = [
     veg: "true",
   },
   {
-    category_name: "Rice and Breads",
+    category_name: "Breads",
     subcategory_name: "Breads",
     catalogue_id: 534892087,
     catalogue_name: "5 Tawa Roti with Butter",
@@ -897,7 +897,7 @@ const data = [
     veg: "true",
   },
   {
-    category_name: "Rice and Breads",
+    category_name: "Rice",
     subcategory_name: "Rice",
     catalogue_id: 534226398,
     catalogue_name: "Plain Rice",
@@ -905,7 +905,7 @@ const data = [
     veg: "true",
   },
   {
-    category_name: "Rice and Breads",
+    category_name: "Rice",
     subcategory_name: "Rice",
     catalogue_id: 534362609,
     catalogue_name: "Jeera Rice",

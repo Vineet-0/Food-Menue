@@ -10,9 +10,9 @@ const NonVegetableIcon = ({ className }) => {
     return <IoTriangle className={`rotate-180 border-2 border-red-500 p-0.5 rounded-md ${className}`} color="red" size={20} />;
 };
 
-const ListView = ({item,index}) => {
-    return (
-        <div key={index*3} className='w-full h-auto bg-white rounded-xl border-2 border-slate-200 flex flex-row gap-2 items-center justify-between p-2'>
+const ListCard = ({item,index}) => {
+  return (
+    <div key={index*3} className='w-full h-auto bg-white rounded-xl border-2 border-slate-200 flex flex-row gap-2 items-center justify-between p-2'>
             {/* <div className='w-fit min-w-[150px]'>
                 {item.img
                     ?
@@ -40,7 +40,7 @@ const ListView = ({item,index}) => {
             </div>
             
         </div>
-    )
+  )
 }
 
-export default ListView
+export default ListCard
