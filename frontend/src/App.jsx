@@ -44,7 +44,7 @@ function App() {
                     </div>
                     {searchBar && 
                         <div className="flex flex-row items-center justify-center w-full pt-4">
-                            <div className="bg-[#f1f1f1] border border-[#f1f1f1d0] shadow flex flex-row items-center justify-center gap-2 w-full sm:w-3/4 lg:w-1/2 mx-4 lg:mx-0 px-4 py-2 rounded-md">
+                            <div className="bg-[#f1f1f1] border-2 border-[#f1f1f1d0] shadow flex flex-row items-center justify-center gap-2 w-full sm:w-3/4 lg:w-1/2 mx-4 lg:mx-0 px-4 py-2 rounded-md">
                                 <input type="text" placeholder="What would you like to eat today?" className="w-full bg-[#f1f1f1] text-black" />
                                     <button className="text-black">
                                     <FaMagnifyingGlass />
@@ -71,7 +71,7 @@ function App() {
                                     {visibleCategory === name && 
                                         <div className="w-full flex flex-col gap-2">
                                             {data.filter(item => item.category_name === name).map((item, index) => (
-                                            <div key={index} className="bg-white shadow">
+                                            <div key={index} className=" shadow">
                                                 <ListCard item={item} index={index} />
                                             </div>
                                             ))}

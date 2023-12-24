@@ -12,7 +12,7 @@ const NonVegetableIcon = ({ className }) => {
 
 const ListCard = ({item,index}) => {
   return (
-    <div key={index*3} className='w-full h-auto bg-white rounded-md border border-slate-200 flex flex-row gap-2 items-center justify-between p-2'>
+    <div key={index*3} className='w-full h-auto bg-white rounded-md border-2 border-[#f1f1f1d0] flex flex-row gap-2 items-center justify-between p-2'>
             {/* <div className='w-fit min-w-[150px]'>
                 {item.img
                     ?
