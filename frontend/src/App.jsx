@@ -17,10 +17,10 @@ function App() {
 
     const categoryNames = [
         "Noodles", "Chinese", "Biryani", "Rice", "Indian", "Rolls", "Soup",
-        "Momos", "Quick Meal", "Drinks", 
+        "Momos",   
     ];
 
-    // "Indian Thalis", "Chinese Thalis", "Maggi","Chinese Main Course", "Combos", "Breads", "Desserts"
+    // "Indian Thalis", "Quick Meal", "Drinks", "Chinese Thalis", "Maggi","Chinese Main Course", "Combos", "Breads", "Desserts"
 
       const toggleVisibility = (category) => {
         setVisibleCategory((prevCategory) => (prevCategory === category ? null : category));
