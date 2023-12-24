@@ -6,6 +6,8 @@ const data = [
     catalogue_name: "Veg Fried Rice",
     full_price: 199.0,
     veg: "true",
+    img: "https://b.zmtcdn.com/data/dish_photos/75a/2e574d8c53efd371b5d4dbc8279a175a.jpg?fit=around|130:130&crop=130:130;*,*",
+    description: "Stir fried rice with mixed vegetable and seasoning, a popular Indo Chinese dish."
   },
   {
     category_name: "Fried Rice",
@@ -14,6 +16,7 @@ const data = [
     catalogue_name: "Veg Schezwan Fried Rice",
     full_price: 199.0,
     veg: "true",
+    img: "https://b.zmtcdn.com/data/dish_photos/20c/a744f47dbb7fa1f043074a2f7a9ef20c.jpg?fit=around|130:130&crop=130:130;*,*"
   },
   {
     category_name: "Fried Rice",
@@ -22,6 +25,7 @@ const data = [
     catalogue_name: "Butter Garlic Fried Rice",
     full_price: 219.0,
     veg: "true",
+    img: "https://b.zmtcdn.com/data/dish_photos/826/550ef01c3084544087ee3a137def5826.jpg?fit=around|130:130&crop=130:130;*,*"
   },
   {
     category_name: "Fried Rice",
@@ -46,6 +50,7 @@ const data = [
     catalogue_name: "Chicken Egg Fried Rice",
     full_price: 249.0,
     veg: "false",
+    img: "https://b.zmtcdn.com/data/dish_photos/753/68bcba9cfecd80fa42078a71226ef753.jpg?fit=around|130:130&crop=130:130;*,*"
   },
   {
     category_name: "Fried Rice",
@@ -54,6 +59,7 @@ const data = [
     catalogue_name: "Chicken Garlic Rice",
     full_price: 249.0,
     veg: "false",
+    img: "https://b.zmtcdn.com/data/dish_photos/40f/751f6c4233290427a4e6107b5061940f.jpg?fit=around|130:130&crop=130:130;*,*"
   },
   {
     category_name: "Noodles",
@@ -62,6 +68,7 @@ const data = [
     catalogue_name: "Veg Noodles",
     full_price: 199.0,
     veg: "true",
+    img: "https://b.zmtcdn.com/data/dish_photos/e55/5fa13adc2d1b4df220797e7e2719de55.jpg?fit=around|130:130&crop=130:130;*,*"
   },
   {
     category_name: "Noodles",
@@ -70,6 +77,7 @@ const data = [
     catalogue_name: "Veg Schezwan Noodles",
     full_price: 199.0,
     veg: "true",
+    img: "https://b.zmtcdn.com/data/dish_photos/06d/8c7b7e78712766f1ebf358465451206d.jpg?fit=around|130:130&crop=130:130;*,*"
   },
   {
     category_name: "Noodles",

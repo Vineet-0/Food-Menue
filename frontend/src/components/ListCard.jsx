@@ -3,41 +3,58 @@ import { FaCircle } from "react-icons/fa";
 import { IoTriangle } from "react-icons/io5";
 
 const VegetableIcon = ({ className }) => {
-    return <FaCircle className={`border-2 border-green-700 p-0.5 rounded-md ${className}`} color="green" size={20} />;
+    return <FaCircle className={`bg-white border-2 border-green-700 p-[2.5px] rounded-md ${className}`} color="green" size={20} />;
 };
   
 const NonVegetableIcon = ({ className }) => {
-    return <IoTriangle className={`rotate-180 border-2 border-red-500 p-0.5 rounded-md ${className}`} color="red" size={20} />;
+    return <IoTriangle className={`rotate-180 bg-white border-2 border-red-500 p-[2.5px] rounded-md ${className}`} color="red" size={20} />;
 };
 
 const ListCard = ({item,index}) => {
   return (
-    <div key={index*3} className='w-full h-auto bg-white rounded-md border border-[#f1f1f1d0] flex flex-row gap-2 items-center justify-between p-2'>
-            {/* <div className='w-fit min-w-[150px]'>
+    <div key={index*3} className='w-full h-auto bg-white rounded-md border border-[#f1f1f1d0] flex flex-row gap-2 items-center p-2'>
+            <div className='w-fit min-w-[130px] h-fit min-h-[130px]'>
                 {item.img
                     ?
-                        <img src={item.img} className=''/>
+                        <img src={item.img} className='rounded-md'/>
                     :
-                        <div className='w-full h-24 rounded-md bg-red-300'>
+                        <div className='w-[130px] h-[130px] animate-pulse flex items-center justify-center rounded-md bg-slate-400'>
+                            <svg className='w-[40px]' version="1.1" id="L9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve">
+                                <path fill="#fff" d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50">
+                                    <animateTransform 
+                                        attributeName="transform" 
+                                        attributeType="XML" 
+                                        type="rotate"
+                                        dur="1s" 
+                                        from="0 50 50"
+                                        to="360 50 50" 
+                                        repeatCount="indefinite" />
+                                </path>
+                            </svg>
                         </div>
-                }   
-            </div> */}
-            <div className='flex flex-row gap-2 items-center'>
-                <div className=''>
+                }  
+                <div className='relative -top-[25px] left-[5px] h-0'>
                     {item.veg=='true'
                         ?  
                             <VegetableIcon />
                         :
                             <NonVegetableIcon />
                     } 
-                </div>
+                </div> 
+            </div>
+            <div className='flex flex-col gap-1 items-start justify-start mt-1 mb-auto'>
                 <div>
                     {item.catalogue_name}
                 </div>
+                <div>
+                    ₹<span>{item.full_price}</span>
+                </div>
+                <div className='text-xs'>
+                    {item.description}
+                </div>
             </div>
-            <div>
-                ₹<span>{item.full_price}</span>
-            </div>
+            
             
         </div>
   )
