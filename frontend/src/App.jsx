@@ -16,33 +16,33 @@ function App() {
     const [visibleCategory, setVisibleCategory] = useState(null);
 
     const categoryNames = [
-        "Fried Rice", "Noodles", "Indian Thalis", "Chinese Thalis", "Maggi",
-        "Chinese Main Course", "Indian Main Course", "Rolls", "Starters",
-        "Biryani", "Momos", "Combos", "Rice", "Breads", "Desserts",
+        "Noodles", "Chinese", "Biryani", "Rice", "Indian", "Rolls", "Soup",
+        "Momos", "Quick Meal", "Drinks", 
     ];
+
+    // "Indian Thalis", "Chinese Thalis", "Maggi","Chinese Main Course", "Combos", "Breads", "Desserts"
 
       const toggleVisibility = (category) => {
         setVisibleCategory((prevCategory) => (prevCategory === category ? null : category));
       };
 
     return (
-        <div className="w-full h-auto no-scrollbar bg-hero">
-            <div className="w-full backdrop-filter backdrop-blur-[1px]">
+        <div className="w-full h-auto min-h-screen no-scrollbar bg-hero">
+            <div className="w-full min-h-screen backdrop-filter backdrop-blur-[1px]">
                 {/* Navbar */}
                 <div className="flex flex-col w-full ">
                 {/* <div className="z-1 fixed flex flex-col w-full"> */}
                     <div className="w-full px-8 sm:px-16 py-2 flex flex-row items-center justify-between bg-[#f1f1f1] shadow">
-                        <div className="text-2xl font-bold">
+                        {/* <div className="text-2xl font-bold">
                             <MdOutlineMenu className="text-[#281c1cd0]"/>
+                        </div> */}
+                        <div className="w-full">
+                            <img className="w-[170px] mx-auto" src={HeavenMealLogo} alt="Heaven Meal Logo" />
                         </div>
-                        <div>
-                            <img className="w-[170px]" src={HeavenMealLogo} alt="Heaven Meal Logo" />
-                        </div>
-                        <div className="text-xl font-bold"
+                        {/* <div className="text-xl font-bold"
                             onClick = {() => setSearchBar(!searchBar)}>
-                            <FaMagnifyingGlass className="text-[#f1f1f1]"/>
-                            {/* <FaMagnifyingGlass className="text-[#281c1cd0]"/> */}
-                        </div>
+                            <FaMagnifyingGlass className="text-[#281c1cd0]"/>
+                        </div> */}
                     </div>
                     {/* {searchBar && 
                         <div className="flex flex-row items-center justify-center w-full pt-4">

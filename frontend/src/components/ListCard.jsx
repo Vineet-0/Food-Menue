@@ -24,8 +24,9 @@ const ListCard = ({ item, index }) => {
     : `${item.description.slice(0, MAX_DESCRIPTION_LENGTH)}...`;
 
     return (
-        <div key={index * 3} className='w-full h-auto min-h-[130px] bg-white rounded-md border border-[#f1f1f1d0] flex flex-row gap-2 items-start p-2'>
-            <div className='w-fit min-w-[130px] h-fit min-h-[130px]'>
+        <div key={index * 3} className='w-full h-auto bg-white rounded-md border border-[#f1f1f1d0] flex flex-row gap-2 items-start p-2'>
+        {/* <div key={index * 3} className='w-full h-auto min-h-[130px] bg-white rounded-md border border-[#f1f1f1d0] flex flex-row gap-2 items-start p-2'> */}
+            {/* <div className='w-fit min-w-[130px] h-fit min-h-[130px]'>
                 {item.img ? (
                     <img src={item.img} className='rounded-md min-w-[130px] min-h-[130px]' />
                     ) : (
@@ -48,13 +49,47 @@ const ListCard = ({ item, index }) => {
                         </svg>
                     </div>
                 )}
-                <div className='relative -top-[25px] left-[5px] h-0'>
-                    {item.veg === 'true' ? <VegetableIcon /> : <NonVegetableIcon />}
+
+                {item.category_name!=="Drinks" &&
+                    <div className='relative -top-[25px] left-[5px] h-0'>
+                        {item.veg === 'true' ? <VegetableIcon /> : <NonVegetableIcon />}
+                    </div>
+                }
+            </div> */}
+            <div className='w-full flex flex-row items-start justify-between mt-1 mb-auto'>
+                <div className='font-medium'>{item.name}</div>
+
+                <div className='flex flex-col'>
+                    <div className='flex flex-row justify-end font-semibold'>
+                        {item.half_price ? <div className='mr-[5px]'>₹{item.half_price} /</div> : "" } ₹{item.full_price}
+                    </div>
+                    {item.half_qty && 
+                        <div className='flex flex-row'>
+                            {item.half_qty} / {item.full_qty}
+                        </div>
+                    }
                 </div>
+                    {/* <div className='text-xs'>
+                        {displayDescription}
+                        {item.description.length > MAX_DESCRIPTION_LENGTH && (
+                            <button className='text-blue-500' onClick={toggleDescription}>
+                            {showFullDescription ? 'Read Less' : 'Read More'}
+                            </button>
+                        )}
+                    </div> */}
             </div>
-            <div className='flex flex-col gap-1 items-start justify-start mt-1 mb-auto'>
-                <div className='font-medium'>{item.catalogue_name}</div>
-                    <div className='font-semibold'>₹<span>{item.full_price}</span></div>
+            {/* <div className='flex flex-col gap-1 items-start justify-start mt-1 mb-auto'>
+                <div className='font-medium'>{item.name}</div>
+                    <div className=''>
+                        <div className='flex flex-row font-semibold'>
+                            {item.half_price ? <div className='mr-[5px]'>₹{item.half_price} /</div> : "" } ₹{item.full_price}
+                        </div>
+                        {item.half_qty && 
+                            <div className='flex flex-row'>
+                                {item.half_qty} / {item.full_qty}
+                            </div>
+                        }
+                    </div>
                     <div className='text-xs'>
                     {displayDescription}
                     {item.description.length > MAX_DESCRIPTION_LENGTH && (
@@ -63,7 +98,7 @@ const ListCard = ({ item, index }) => {
                         </button>
                     )}
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };
