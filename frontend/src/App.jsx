@@ -30,14 +30,14 @@ function App() {
                 {/* Navbar */}
                 <div className="flex flex-col w-full ">
                 {/* <div className="z-1 fixed flex flex-col w-full"> */}
-                    <div className="w-full px-8 sm:px-16 py-2 flex flex-row items-center justify-between bg-[#f1f1f1] shadow">
-                        <div className="text-3xl font-bold">
+                    <div className="w-full px-8 sm:px-16 pt-1 flex flex-row items-center justify-between bg-[#f1f1f1] shadow">
+                        <div className="text-2xl font-bold">
                             <MdOutlineMenu />
                         </div>
                         <div>
                             <img className="w-[190px]" src={HeavenMealLogo} alt="Heaven Meal Logo" />
                         </div>
-                        <div className="text-2xl font-bold"
+                        <div className="text-xl font-bold"
                             onClick = {() => setSearchBar(!searchBar)}>
                             <FaMagnifyingGlass />
                         </div>
@@ -71,7 +71,7 @@ function App() {
                                     {visibleCategory === name && 
                                         <div className="w-full flex flex-col gap-2">
                                             {data.filter(item => item.category_name === name).map((item, index) => (
-                                            <div key={index} className=" shadow">
+                                            <div key={index} className="rounded-md shadow">
                                                 <ListCard item={item} index={index} />
                                             </div>
                                             ))}
