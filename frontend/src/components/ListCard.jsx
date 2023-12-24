@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaCircle } from "react-icons/fa";
 import { IoTriangle } from "react-icons/io5";
 
-const MAX_DESCRIPTION_LENGTH = 50;
+const MAX_DESCRIPTION_LENGTH = 35;
 
 const VegetableIcon = ({ className }) => {
   return <FaCircle className={`bg-white border-2 border-green-700 p-[2.5px] rounded-md ${className}`} color="green" size={20} />;
