@@ -16,7 +16,7 @@ const ListCard = ({item,index}) => {
             <div className='w-fit min-w-[130px] h-fit min-h-[130px]'>
                 {item.img
                     ?
-                        <img src={item.img} className='rounded-md'/>
+                        <img src={item.img} className='rounded-md min-w-[130px] min-h-[130px]'/>
                     :
                         <div className='w-[130px] h-[130px] animate-pulse flex items-center justify-center rounded-md bg-slate-400'>
                             <svg className='w-[40px]' version="1.1" id="L9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
