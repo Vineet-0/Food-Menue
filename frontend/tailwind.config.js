@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend:{
+      backgroundImage: {
+        'hero': "url('./assets/backgroundImage.jpg')",
+      },
+      fontFamily: {
+        gagalin: ['Gagalin'],
+      },
+    },
   },
   plugins: [],
 }
