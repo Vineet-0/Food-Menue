@@ -26,8 +26,8 @@ function App() {
       };
 
     return (
-        <div className="w-full h-auto min-h-[93vh] no-scrollbar bg-hero">
-            <div className="w-full min-h-[93h] backdrop-filter backdrop-blur-[1px]">
+        <div className="w-full h-auto min-h-[92vh] no-scrollbar bg-hero">
+            <div className="w-full min-h-[92h] backdrop-filter backdrop-blur-[1px]">
                 {/* Navbar */}
                 <div className="flex flex-col w-full ">
                 {/* <div className="z-1 fixed flex flex-col w-full"> */}
